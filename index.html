@@ -2,6 +2,33 @@
 <html lang="pt-br">
 <head>
     <title>Curriculo</title>
+<script language="javascript">
+function disableselect(e) {
+    return false;
+}
+function reEnable() {
+    return true;
+}
+document.onselectstart = new Function("return false");
+if (window.sidebar) {
+    document.onmousedown = disableselect;
+    document.onclick = reEnable;
+}
+</script>
+
+
+<SCRIPT language=JavaScript>
+<!--
+function click() {
+if (event.button==2) {
+alert('Erro')
+alert('Função desativada!')
+}
+}
+document.onmousedown=click
+// -->
+</SCRIPT>
+
     <style>
 body {
 
