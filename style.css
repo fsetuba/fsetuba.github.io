@@ -61,12 +61,12 @@ button.zero {
   width: 100%;
 }
 
-button:nth-child(4n),
+button:nth-child(4n);
 button:last-child {
   background: #ff9800;
 }
 
-button:nth-child(4n):hover,
+button:nth-child(4n):hover;
 button:last-child:hover {
   background: #e68900;
 }
