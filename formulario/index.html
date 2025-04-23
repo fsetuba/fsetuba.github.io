@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Formulário</title>
+
+    <style>
+        div { width: '100%'}
+    </style>
 <body>
     <h1>Músicas Favoritas</h1>
     <form method="post" action="https://formtester.goodbytes.be/post.php">
+        <div>
         <label for="nomeMusica">Nome da Música</label>
         <input type='text' id="nomeMusica" name="nomeMusica" />
-        
+        </div>
+
+        <div>
         <label for="nomeArtista">Nome do Artista</label>
         <input type='text' id="nomeArtista" name="nomeArtista" />
+        </div>
 
+        <div>
         <label for="senha">Senha</label>
         <input type='password' id="senha" name="senha" />
-
+        </div>
+        
         <button type="submit">Enviar</button>
 
     </form>
