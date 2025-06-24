@@ -52,19 +52,19 @@
                         "titulo" => "Primeiro Post do Blog",
                         "data" => "23 de Junho de 2025",
                         "imagem" => "img/post1.jpg",
-                        "conteudo" => "Este é o primeiro parágrafo da primeira postagem do blog. Aqui compartilharei novidades e conteúdos interessantes.<br>Espero que você goste da leitura!"
+                        "conteudo" => "Post do blog testando"
                     ],
                     [
-                        "titulo" => "Dicas de Programação em PHP",
+                        "titulo" => "PHP",
                         "data" => "20 de Junho de 2025",
                         "imagem" => "img/post2.jpg",
-                        "conteudo" => "Neste post, vamos falar sobre algumas dicas úteis para melhorar seu código PHP e deixá-lo mais organizado e performático.<br>Continue lendo para saber mais."
+                        "conteudo" => "Mais um post para o blog"
                     ],
                     [
-                        "titulo" => "Usando Bootstrap no seu Projeto",
+                        "titulo" => "Teste Bootstrap",
                         "data" => "18 de Junho de 2025",
                         "imagem" => "img/post3.jpg",
-                        "conteudo" => "O Bootstrap é um poderoso framework CSS que facilita o desenvolvimento de páginas responsivas.<br>Veja como começar a usar Bootstrap em minutos."
+                        "conteudo" => "post 3 testando"
                     ]
                 ];
 
@@ -89,7 +89,7 @@
                     Sobre o Autor
                 </div>
                 <div class="card-body">
-                    <p>Olá! Meu nome é João Silva. Sou desenvolvedor web apaixonado por tecnologia e por compartilhar conhecimentos. Aqui no blog você encontrará conteúdos sobre programação, tecnologia e desenvolvimento pessoal.</p>
+                    <p>Olá! Meu nome é Fabio Setuba. Este é um blog para a atividade de Desenvolvimento Web.</p>
                 </div>
             </div>
         </div>
